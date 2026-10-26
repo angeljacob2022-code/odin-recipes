@@ -1,0 +1,52 @@
+boby {
+    font-family: sans-serif
+
+}
+nav {
+    background: rgba(255, 38, 0, 0.911);
+    padding: 1rem;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.card {
+    width: 1200px;
+    background-color: whitesmoke;
+    margin: 20px auto;
+    padding: 10px;
+}
+.ingredients {
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    width: 400px;
+}
+.content {
+    padding: 5px;
+    margin: 10px ;
+    width: 700px;
+}
+
+.list {
+    padding: 5px;
+    margin: 10px;
+}
+
+
+
